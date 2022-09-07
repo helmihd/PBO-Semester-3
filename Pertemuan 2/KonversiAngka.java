@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class KonversiAngka {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Ketik nilai : ");
+        System.out.print("Ketik skor : ");
         int skor = scanner.nextInt();
         double angka = 0.0;
         String huruf;

@@ -10,22 +10,22 @@ public class KonversiAngka {
         if (skor >= 85) {
             angka = 4.00;
             huruf = "A";
-        } else if (skor >= 80 ) {
+        } else if (skor >= 80 && skor <= 84) {
             angka = 3.70;
             huruf = "A-";
-        } else if (skor >= 75) {
+        } else if (skor >= 75 && skor <= 79) {
             angka = 3.30;
             huruf = "B+";
-        } else if (skor >= 70) {
+        } else if (skor >= 70 && skor <= 74) {
             angka = 3.00;
             huruf = "B";
-        } else if (skor >= 65) {
+        } else if (skor >= 65 && skor <= 69) {
             angka = 2.70;
             huruf = "C+";
-        } else if (skor >= 60) {
+        } else if (skor >= 60 && skor <= 64) {
             angka = 2.00;
             huruf = "C";
-        } else if (skor >= 55) {
+        } else if (skor >= 55 && skor <= 59) {
             angka = 1.00;
             huruf = "D";
         } else {

@@ -9,7 +9,7 @@ public class Mahasiswa {
         NIM = keyboard.next();
         System.out.print("nama: ");
         nama = keyboard.next();
-        System.out.print("janis kelamin: ");
+        System.out.print("jenis kelamin: ");
         jenis_kelamin = keyboard.next();
         System.out.print("alamat: ");
         alamat = keyboard.next();

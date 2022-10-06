@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Mahasiswa {
     public static void main(String[] args) {
         String NIM, nama, jenis_kelamin, alamat;
-        Scanner keyboard = new Scanner(System.in).useDelimiter("\n");;
+        Scanner keyboard = new Scanner(System.in).useDelimiter("\n");
 
         System.out.print("NIM: ");
         NIM = keyboard.next();
